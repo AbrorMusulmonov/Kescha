@@ -9,3 +9,8 @@ Console.WriteLine("Converting...");
 int age = Convert.ToInt32(ageasString);
 int KeschAge=2;
 Console.WriteLine($"Difference year {age-KeschAge}");
+// >,>=, <,<=,==,!=
+
+Console.WriteLine($"Your age are older than Kescha {age>KeschAge}");
+Console.WriteLine($"Your age are younger than Kescha {age<KeschAge}");
+Console.WriteLine($"Your age are equal to Kescha {age==KeschAge}");
